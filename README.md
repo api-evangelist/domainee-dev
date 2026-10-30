@@ -64,5 +64,149 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-domainee-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://domainee.dev/
+Domainee provides a Custom Domains API for SaaS applications, enabling developers to let their users connect personal domains to their products with a single API call. The service offers automatic SSL certificates via Let’s Encrypt, supports up to 20 free domains and 100 GB of bandwidth per month, and includes features such as DNS verification, domain registration through Stripe, webhooks, and a native Model Context Protocol (MCP) server for AI‑driven management. Backed by Common Ninja, Domainee aims to simplify white‑label domain provisioning for developers worldwide.
+
+**Areas:** API · SaaS · Custom-Domains · Free-Tier · MCP
+
+## domainee-dev on APIs.io
+
+Everything profiled for domainee-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/domainee-dev/](https://apis.io/providers/domainee-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [domainee-dev DNS API](https://apis.io/apis/domainee-dev/domainee-dev-dns-api/) — Verify that DNS records resolve to the expected values.
+- [domainee-dev Domain purchases API](https://apis.io/apis/domainee-dev/domainee-dev-domain-purchases-api/) — Search, register, renew, and manage domains bought through Domainee.
+- [domainee-dev Domains API](https://apis.io/apis/domainee-dev/domainee-dev-domains-api/) — Connect and verify your customers' custom domains.
+- [domainee-dev Free tools API](https://apis.io/apis/domainee-dev/domainee-dev-free-tools-api/) — Keyless diagnostic lookups. No Authorization header required.
+- [domainee-dev Origin secret API](https://apis.io/apis/domainee-dev/domainee-dev-origin-secret-api/) — Prove to your origin that a request came through Domainee.
+- [domainee-dev Projects API](https://apis.io/apis/domainee-dev/domainee-dev-projects-api/) — Generic workspace-scoped objects.
+- [domainee-dev Service API](https://apis.io/apis/domainee-dev/domainee-dev-service-api/) — Health and discovery endpoints.
+- [domainee-dev Webhooks API](https://apis.io/apis/domainee-dev/domainee-dev-webhooks-api/) — Subscribe to domain lifecycle events.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Domainee Dev Agentic Access](https://apis.io/agentic-access/domainee-dev/domainee-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Domain](https://apis.io/schemas/domainee-dev/domainee-dev-domain/)
+- [DomainPurchase](https://apis.io/schemas/domainee-dev/domainee-dev-domain-purchase/)
+- [PreflightWarning](https://apis.io/schemas/domainee-dev/domainee-dev-preflight-warning/)
+- [Project](https://apis.io/schemas/domainee-dev/domainee-dev-project/)
+- [Registrant](https://apis.io/schemas/domainee-dev/domainee-dev-registrant/)
+- [RegistrarDnsRecord](https://apis.io/schemas/domainee-dev/domainee-dev-registrar-dns-record/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Domainee Dev Context](https://apis.io/jsonld/domainee-dev/domainee-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [domainee-dev API Rules](https://apis.io/rules/domainee-dev/domainee-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Domainee Dev Authentication](https://apis.io/security/domainee-dev/domainee-dev-authentication/)
+- [Domainee Dev Domain Security](https://apis.io/security/domainee-dev/domainee-dev-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Domainee Dev Scopes](https://apis.io/scopes/domainee-dev/domainee-dev-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Domainee Dev Plans Pricing](https://apis.io/plans/domainee-dev/domainee-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Domainee Dev Rate Limits](https://apis.io/rate-limits/domainee-dev/domainee-dev-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://domainee.dev/)
+- [Documentation](https://domainee.dev/docs)
+- [Getting started](https://domainee.dev/docs)
+- [API reference](https://domainee.dev/docs)
+- [Pricing](https://domainee.dev/pricing)
+- [Support](https://domainee.dev/contact)
+- [Blog](https://domainee.dev/blog)
+- [Terms of service](https://domainee.dev/terms)
+- [Privacy policy](https://domainee.dev/privacy)
+- [GitHub](https://github.com/CommonNinja)
+
+## API Evangelist rating
+
+**Kin Score 61.1** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 63.7 |
+
+**Agent readiness 63.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/domainee-dev/](https://apis.io/providers/domainee-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for domainee-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/domainee-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
